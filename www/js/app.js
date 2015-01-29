@@ -14,7 +14,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
     if(window.StatusBar) {
       StatusBar.styleDefault();
-    // }
+    }
     // initialize Google Analytics 
     if(typeof analytics !== "undefined") {
         analytics.startTrackerWithId("UA-XXXXXXX-X");
